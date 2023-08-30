@@ -1,0 +1,165 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+}
+
+p{
+    color: white;
+}
+
+a{
+    color: white;
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: space-between;
+    padding-top: 40px;
+    padding-left: 8%;
+    padding-right: 8%;
+}
+
+.logo{
+    color: white;
+    font-size: 28px;
+    margin-top: -15px;
+    transition: .5s;
+}
+
+.logo:hover{
+    transform: scale(1.2);
+}
+
+span{
+    color: red;
+}
+
+nav ul{
+    margin-right: 6%;
+}
+
+nav ul li{
+    list-style-type: none;
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 20px;
+}
+
+nav ul li a{
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav ul li a:hover{
+    color: red;
+    transition: .5s;
+}
+
+.button{
+    border: none;
+    background: red;
+    padding: 12px 30px;
+    border-radius: 30px;
+    color: white;;
+    font-weight: bold;
+    font-size: 15px;
+    transition: .5s;
+}
+
+.button:hover{
+    transform: scale(1.2);
+    cursor: pointer;
+}
+
+.texttop{
+    margin-top: 230px;
+    margin-left: 250px;
+    word-spacing: 15px;
+    color: white;
+    font-size: 35px;
+    display: flex;
+    flex-direction: column;
+}
+
+.texttop p{
+    color: white;
+}
+
+.nav-button{
+    position: relative;
+    z-index: 9;
+    margin-top: -15px;
+    height: 25px;
+    border: none;
+    padding: 0;
+    cursor: pointer;
+    display: none;
+    background: transparent;
+}
+
+.nav-button-icon{
+    display: block;
+    position: relative;
+    width: 42px;
+    height: 5px;
+    background-color: red;
+    border: none; 
+}
+
+.nav-button-icon::before{
+    position: absolute;
+    left: 0;
+    top: -10px;
+    content: "";
+    display: block;
+    width: 42px;
+    height: 5px;
+    background-color: red;
+}
+
+.nav-button-icon::after{
+    position: absolute;
+    left: 0;
+    bottom: -10px;
+    content: "";
+    display: block;
+    width: 42px;
+    height: 5px;
+    background-color: red;
+}
+
+.mobile-nav{
+    position: fixed;
+    top: 0;
+    right: 0;
+
+    display: none;
+    flex-direction: column;
+    text-align: left;
+
+    width: 420px;
+    height: 100%;
+    padding-top: 50px;
+    padding-left: 50px;
+    padding-right: 250px;
+    background: rgba(0, 0, 0, 0.829);
+}
+
+.mobile-nav .textad{
+    display: block;
+}
+
+.mobile-nav ul li{
+    margin: 0;
+    margin-bottom: 25px;
+}

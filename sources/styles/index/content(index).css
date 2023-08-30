@@ -1,0 +1,111 @@
+html{
+    height: 100%;
+}
+
+p{
+    color: white;
+}
+
+h2{
+    color: white;
+}
+
+
+.content{
+    margin-top: 500px;
+}
+.text_first{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 200px;
+    margin-left: 150px;
+}
+
+.text_second{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 180px;
+}
+
+.text_third{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 200px;
+    margin-left: 150px;
+    margin-bottom: 150px;
+}
+
+.text{
+    font-size: 25px;
+    margin-left: 200px;
+    margin-right: 150px;
+    margin-top: 40px;
+}
+
+.text_2{
+    font-size: 25px;
+    margin-left: 250px;
+    margin-right: 150px;
+    margin-top: 70px;
+}
+
+.hero_1::before {
+    display: block;
+    content: "";
+    width: 255px;
+    height: 2px;
+    background-color: red;
+}
+
+.hero_2::before {
+    display: block;
+    content: "";
+    width: 405px;
+    height: 2px;
+    background-color: red;
+}
+
+.hero_3::before {
+    display: block;
+    content: "";
+    width: 245px;
+    height: 2px;
+    background-color: red;
+}
+
+.text_first img{
+    width: 700px;
+    transition: .5s;
+}
+
+.text_second img{
+    width: 700px;
+    margin-right: 150px;
+    transition: .5s;
+}
+
+.text_third img{
+    width: 700px;
+    transition: .5s;
+}
+
+.text_first img:hover{
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+.text_second img:hover{
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+.text_third img:hover{
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+
+
+
+
+

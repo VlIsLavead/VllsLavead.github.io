@@ -1,0 +1,50 @@
+
+@media (max-width: 1500px){
+    body{
+        height: 100%;
+        weight: 100%;
+    }
+
+    .fontext{
+        display: none;
+    }
+
+    .hero_2{
+        margin-left: 100px;
+    }
+}
+@media (max-width: 1200px) {
+    body{
+        height: 100%;
+        weight: 100%;
+    }
+
+    .textad,
+    .button{
+        display: none;
+    }
+
+    .textmid{
+        text-align: center;
+        align-items: center;
+
+    }
+
+    .nav-button{
+        display: block;
+    }
+
+    .mobile-nav-active{
+        display: flex;
+    }
+}
+
+@media (max-width: 800px) {
+    body{
+        height: 100%;
+        weight: 100%;
+    }
+
+    .content{
+    }
+}

@@ -1,0 +1,7 @@
+body{
+    height: 100%;
+    width: 100%;
+    background: url(../images/fon.png) no-repeat;
+    -webkit-background-size: cover;
+    font-family: Poppins;
+} 
